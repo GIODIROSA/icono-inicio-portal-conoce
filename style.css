@@ -1,0 +1,86 @@
+#icono-portalConoce {
+  margin: auto;
+  max-width: 1140px;
+}
+
+#icono-portalConoce .none {
+  margin: 0px;
+}
+
+#icono-portalConoce .title-icono {
+  text-align: center;
+  padding: 30px 0px;
+  color: #003b6e;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 41px;
+}
+
+#icono-portalConoce .wrapper-icono {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+#icono-portalConoce .icono-portalConoce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#icono-portalConoce .contenedor-icono {
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icono-portalConoce .icono-line {
+  background-color: #e74100;
+  border: none;
+  height: 2px;
+  width: 50%;
+}
+
+#icono-portalConoce .wrapper-icono img {
+  width: 100%;
+  display: block;
+}
+
+#icono-portalConoce .icono-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 20px 0px;
+  color: #333;
+}
+
+#icono-portalConoce .icono-parrafo {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #icono-portalConoce .wrapper-icono {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #icono-portalConoce .icono-parrafo {
+    padding: 0px 10px;
+  }
+}
